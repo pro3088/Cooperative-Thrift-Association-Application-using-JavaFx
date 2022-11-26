@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+   <children>
+      <AnchorPane prefHeight="742.0" prefWidth="494.0" style="-fx-background-color: #87CEEB;">
+         <children>
+            <Label layoutX="121.0" layoutY="47.0" text="TEX BANK" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="236.0" text="Username" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="299.0" text="Password" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <TextField id="tf_username" fx:id="tf_username" layoutX="142.0" layoutY="232.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField id="tf_password" fx:id="tf_password" layoutX="142.0" layoutY="295.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField id="tf_email" fx:id="tf_email" layoutX="142.0" layoutY="356.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField id="tf_number" fx:id="tf_number" layoutX="142.0" layoutY="420.0" prefHeight="25.0" prefWidth="231.0" />
+            <Label layoutX="176.0" layoutY="706.0" text="rotex bank plc" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="8.0" />
+               </font>
+            </Label>
+            <Button id="btn_login" fx:id="btn_signup" layoutX="252.0" layoutY="485.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Signup">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button id="btn_signup" fx:id="btn_login" layoutX="258.0" layoutY="549.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: transparent;" text="Login">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="187.0" layoutY="553.0" text="Already a User?" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="363.0" text="Email" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="424.0" text="Phone Number" wrapText="true">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
